@@ -1,0 +1,98 @@
+<html>
+<head>
+    <style>
+        .container{
+            position: relative;
+            width: 300px;
+            height: 300px;
+            border: 3px solid red;
+            margin: 20px;
+            background-color: aqua;
+        }
+        .static-elemnts{
+            position: static;
+            top: 1px;
+            left: 60px;
+            width: 60px;
+            height: 20px;
+            background-color: cornflowerblue;
+        }
+        .relative-elements{
+            position: relative;
+            top: 1px;
+            left: 10px;
+            width: 60px;
+            height: 30px;
+            background-color: blueviolet;
+        }
+        .absolute-element{
+            position: absolute;
+            top: 1px;
+            left: 100px;
+            width: 60px;
+            height: 20px;
+            background-color: brown;
+        }
+        .fixed-element
+        {
+            position: fixed;
+            top: 1px;
+            left; -10px;
+            width: 60px;
+            height: 30px;
+            background-color: blue;
+        }
+        img{
+            height: 200px;
+            width: 250px;
+            border: 3px solid yellow;
+        }
+        .flex{
+            display: flex;
+            flex-direction:row;
+            align-items: center;
+            justify-content: space-around;
+        
+        }
+        .flex-display{
+            font-size: 20px;
+            text-underline-position: auto;
+        }
+    </style>
+    <body>
+        <center>
+            <br>
+    <h1>"Nature's Palette"</h1>
+       <div class="container">
+        <div class="static-elemnts">static</div>
+           <h2> "Sunset Over the Horizon"</h2>
+           <p></p>
+           <img src="img1.jpg">
+        </div> 
+        <div class="container">
+        <div class="relative-elements">relative</div>
+            <h2>"Floating Leaves"</h2>
+            <img src="img2.jpg">
+            </div> 
+        <div class="container">
+        <div class="absolute-element">absolute</div>
+            <h2>"Mountains in Mist"</h2>
+            <img src="img3.jpg">
+            </div> 
+        <div class="container">
+        <div class="fixed-element">fixed</div>
+            <h2>"Starry Night"</h2>
+            <img src="img4.jpg">
+            </div> 
+            <div class="flex-display">flex display of the images
+            <h2>"Floral Garden"</h2></div>
+            <div class="flex">
+                 <img src="img55.jpg">
+                 <img src="img52.jpg">
+                 <img src="img53.jpg">
+                 <img src="img54.jpg">
+            </div> 
+            </center>
+    </body>
+    </head>
+</html>
